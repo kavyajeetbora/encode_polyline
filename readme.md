@@ -15,7 +15,7 @@ Polyline encoding is a lossy compression algorithm that allows you to store a se
 # TODO
 
 1. Apply filter to check all geometries are LineString object or not
-2.
+2. Add conversion for multiple layers of a geopackage
 
 # Reference
 
