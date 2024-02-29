@@ -10,7 +10,7 @@ Simple web application to encode the standard linestring geometry objects to Goo
 
 Polyline encoding is a lossy compression algorithm that allows you to store a series of coordinates as a single string. Point coordinates are encoded using signed values. If you only have a few static points, you may also wish to use the interactive polyline encoding utility.
 
-[Read mode](https://developers.google.com/maps/documentation/utilities/polylinealgorithm)
+[Read more](https://developers.google.com/maps/documentation/utilities/polylinealgorithm)
 
 # TODO
 
