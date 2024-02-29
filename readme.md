@@ -4,7 +4,7 @@ Simple web application to encode the standard linestring geometry objects to Goo
 
 # Run the application on google colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/your_notebook_path)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kavyajeetbora/encode_polyline/blob/master/Encode_Polyline.ipynb)
 
 # About Encoded Polyline Algorithm Format
 
