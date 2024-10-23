@@ -2,6 +2,8 @@
 
 Simple web application to encode the standard linestring geometry objects to Google's Encoded Polyline Algorithm Format.
 
+![how-to-convert](https://github.com/user-attachments/assets/dfe6b13f-d02c-4767-86c7-d26f71f3bc7b)
+
 # Run the application on google colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kavyajeetbora/encode_polyline/blob/master/Encode_Polyline.ipynb)
