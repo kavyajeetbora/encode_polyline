@@ -12,6 +12,24 @@ Simple web application to encode the standard linestring geometry objects to Goo
 
 Polyline encoding is a lossy compression algorithm that allows you to store a series of coordinates as a single string. Point coordinates are encoded using signed values. If you only have a few static points, you may also wish to use the interactive polyline encoding utility.
 
+## Why Encoded Polylines ?
+
+Encoded polylines are used primarily for their efficiency in storing and transmitting a series of geographic coordinates. Here are some key reasons why they are beneficial:
+
+### 1. **Data Compression**
+- **Efficiency**: Encoded polylines use a lossy compression algorithm to convert a series of latitude and longitude coordinates into a single string. This significantly reduces the amount of data that needs to be stored or transmitted¹(https://developers.google.com/maps/documentation/utilities/polylinealgorithm).
+
+### 2. **Performance**
+- **Speed**: By reducing the size of the data, encoded polylines can be processed and transmitted more quickly, which is especially important for applications that need to handle large amounts of geographic data in real-time¹(https://developers.google.com/maps/documentation/utilities/polylinealgorithm).
+
+### 3. **Compatibility**
+- **Integration**: Encoded polylines are widely supported by mapping APIs, such as Google Maps, making it easier to integrate and display complex paths on maps²(https://developers.google.com/maps/documentation/utilities/polylineutility).
+
+### 4. **Readability**
+- **Simplification**: The encoded string format is more compact and easier to manage compared to a long list of coordinate pairs, which can be cumbersome to handle and prone to errors¹(https://developers.google.com/maps/documentation/utilities/polylinealgorithm).
+
+
+
 [Read more](https://developers.google.com/maps/documentation/utilities/polylinealgorithm)
 
 # TODO
@@ -22,3 +40,5 @@ Polyline encoding is a lossy compression algorithm that allows you to store a se
 # Reference
 
 1. [python library - polyline 2.0.2](https://pypi.org/project/polyline/)
+2. [Encoded Polyline Algorithm Format - Google Developers](https://developers.google.com/maps/documentation/utilities/polylinealgorithm)
+3. [Interactive Polyline Encoder Utility | Google Maps Platform | Google](https://developers.google.com/maps/documentation/utilities/polylineutility)
